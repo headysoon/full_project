@@ -1,0 +1,392 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gabriela&display=swap");
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.promo {
+    min-height: 700px;
+    background: -webkit-gradient( linear, left top, left bottom, from(rgba(0, 0, 0, 0.1)), to(rgba(0, 0, 0, 0.5))), url("../img/Central-Alps-Passes-Postauto-01859.jpg") center center/cover no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4)), url("../img/Central-Alps-Passes-Postauto-01859.jpg") center center/cover no-repeat;
+    background-attachment: fixed;
+}
+
+.promo header {
+    height: 50px;
+}
+
+.promo header nav {
+    width: 100%;
+    height: 500px;
+}
+
+.promo header nav .menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 60px;
+    margin: 0;
+    list-style-type: none;
+}
+
+.promo header nav .menu .menu_link {
+    color: #ffffff;
+    font-family: "Comfortaa", cursive;
+    font-size: 21px;
+    text-decoration: none;
+}
+
+.promo header nav .menu .menu_logo {
+    color: #ffffff;
+    font-family: "Pacifico", cursive;
+    font-size: 45px;
+    margin-right: 500px;
+}
+
+.promo header nav .menu .menu_text {
+    padding-top: 25px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+}
+
+.promo header nav .menu .menu_item:not(:last-child) {
+    margin-right: 50px;
+}
+
+.content-with-text {
+    display: block;
+    margin: 0 auto;
+    margin-top: 280px;
+}
+
+.content-with-text h2 {
+    font-family: "Comfortaa", cursive;
+    color: white;
+    font-size: 41px;
+    text-align: center;
+}
+
+.content-with-text h3 {
+    margin-top: 10px;
+    font-family: "Comfortaa", cursive;
+    color: white;
+    font-size: 29px;
+    text-align: center;
+}
+
+.promo-slider {
+    margin-top: 70px;
+}
+
+.turs {
+    min-height: 400px;
+    padding: 100px 0px 100px 0px;
+    background-color: #E0FFFF;
+}
+
+.turs .turs-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.turs .turs-content .block-img {
+    display: block;
+    position: relative;
+    border-radius: 15px;
+    width: 555px;
+    height: 330px;
+    background: url("../img/zakatt.jpg") center center/cover no-repeat;
+    margin-right: 50px;
+    font-family: "Gabriela", serif;
+}
+
+.turs .turs-content .block-img .first-text {
+    position: absolute;
+    top: 5px;
+    font-weight: bold;
+    left: 15px;
+    font-size: 17px;
+    color: white;
+    text-align: left;
+}
+
+.turs .turs-content .block-img .second-text {
+    position: absolute;
+    top: 300px;
+    left: 15px;
+    font-size: 17px;
+    color: white;
+    text-align: left;
+    font-weight: bold;
+}
+
+.turs .turs-content .block-texts h2 {
+    color: black;
+    font-size: 38px;
+    line-height: 51px;
+    font-family: "Gabriela", serif;
+}
+
+.turs .turs-content .block-texts p {
+    color: black;
+    font-size: 17px;
+    line-height: 27px;
+    font-family: "Gabriela", serif;
+}
+
+.turs .turs-content .block-texts .btn {
+    display: block;
+    margin: 0 auto;
+}
+
+.turs .turs-content .block-texts .btn:hover a {
+    color: white;
+}
+
+.obratnaya {
+    min-height: 500px;
+    padding: 100px 0px 100px 0px;
+    background: -webkit-gradient( linear, left top, left bottom, from(rgba(117, 190, 218, 0.5)), to(rgba(0, 0, 0, 0.5))), url("../img/Central-Alps-Passes-Postauto-01859.jpg") center center/cover no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4)), url("../img/Central-Alps-Passes-Postauto-01859.jpg") center center/cover no-repeat;
+
+}
+
+.obratnaya .svyz {
+    display: block;
+    margin: 0 auto;
+}
+
+.obratnaya .svyz .title-svyz {
+    font-family: "Comfortaa", cursive;
+    text-align: center;
+    font-size: 36px;
+    color: white;
+}
+
+.obratnaya .svyz .subtitle-svyz {
+    font-family: "Comfortaa", cursive;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+}
+
+.obratnaya .svyz .form-control {
+    border-radius: 15px;
+    border: 1px solid aqua;
+    background: rgba(0, 0, 0, 0.1);
+    color: aqua;
+}
+
+.obratnaya .svyz::-webkit-input-placeholder {
+    color: #57b4b4;
+}
+
+.obratnaya .svyz button {
+    border: 1px solid #4dc2c2;
+}
+
+.obratnaya .svyz button a {
+    color: #57b4b4;
+}
+
+.obratnaya .svyz .btn:hover {
+    background-color: #4dc2c2;
+}
+
+.obratnaya .svyz .btn:hover a {
+    color: white;
+}
+
+.obratnaya .svyz .lastText-svyz {
+    margin-top: 20px;
+    color: white;
+    text-align: center;
+}
+
+.otzyv {
+    min-height: 500px;
+    padding: 100px 0px 100px 0px;
+    background-color: #E0FFFF;
+}
+
+.otzyv .otzyv-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.otzyv .otzyv-content .otzyv-person-1 {
+    background: -webkit-gradient( linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("../img/slider2/1.jpg") center center/cover no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/slider2/1.jpg") center center/cover no-repeat;
+    width: 555px;
+    height: 333px;
+    position: relative;
+    padding-top: 30px;
+}
+
+.otzyv .otzyv-content .otzyv-person-1 .first-text {
+    font-family: "Gabriela", serif;
+    text-align: center;
+    color: white;
+}
+
+.otzyv .otzyv-content .otzyv-person-1 .second-text {
+    font-family: "Gabriela", serif;
+    margin-top: 10px;
+    text-align: left;
+    color: white;
+    font-size: 13px;
+}
+
+.otzyv .otzyv-content .otzyv-person-2 {
+    background: -webkit-gradient( linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("../img/slider2/4.jpg") center center/cover no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/slider2/4.jpg") center center/cover no-repeat;
+    width: 555px;
+    height: 333px;
+    padding-top: 30px;
+}
+
+.otzyv .otzyv-content .otzyv-person-2 .first-text {
+    font-family: "Gabriela", serif;
+    text-align: center;
+    color: white;
+}
+
+.otzyv .otzyv-content .otzyv-person-2 .second-text {
+    font-family: "Gabriela", serif;
+    margin-top: 10px;
+    text-align: left;
+    color: white;
+    font-size: 13px;
+}
+
+.otzyv .otzyv-content .otzyv-person-3 {
+    background: -webkit-gradient( linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("../img/slider2/3.jpg") center center/cover no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/slider2/3.jpg") center center/cover no-repeat;
+    width: 555px;
+    height: 333px;
+    padding-top: 30px;
+}
+
+.otzyv .otzyv-content .otzyv-person-3 .first-text {
+    font-family: "Gabriela", serif;
+    text-align: center;
+    color: white;
+}
+
+.otzyv .otzyv-content .otzyv-person-3 .second-text {
+    font-family: "Gabriela", serif;
+    margin-top: 10px;
+    text-align: left;
+    color: white;
+    font-size: 13px;
+}
+
+.otzyv .otzyv-person-4 {
+    background: -webkit-gradient( linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("../img/slider2/2.jpg") center center/cover no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/slider2/2.jpg") center center/cover no-repeat;
+    width: 555px;
+    height: 333px;
+    padding-top: 30px;
+}
+
+.otzyv .otzyv-person-4 .first-text {
+    font-family: "Gabriela", serif;
+    text-align: center;
+    color: white;
+}
+
+.otzyv .otzyv-person-4 .second-text {
+    font-family: "Gabriela", serif;
+    margin-top: 10px;
+    text-align: left;
+    color: white;
+    font-size: 13px;
+}
+
+.otzyv-texts {
+    margin-right: 50px;
+}
+
+.otzyv-texts h2 {
+    color: black;
+    font-size: 38px;
+    line-height: 51px;
+    font-family: "Gabriela", serif;
+}
+
+.otzyv-texts p {
+    color: black;
+    font-size: 17px;
+    line-height: 27px;
+    font-family: "Gabriela", serif;
+}
+
+.author {
+    font-family: "Comfortaa", cursive;
+    font-size: 20px;
+}
+
+body {
+  background: linear-gradient(to top, #55EFCB 0%, #5BCAFF 100%);
+  height: 100%;
+}
+.border-button {
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px 30px;
+  margin: 10px 240px;
+  position: relative;
+  color: white;
+  border: 1px solid rgba(255, 255, 255, .4);
+  background: #2F4F4F;
+  font-weight: 300;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.border-button:before, .border-button:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  opacity: 0;
+  box-sizing: border-box;
+}
+.border-button:before {
+  bottom: 0;
+  left: 0;
+  border-left: 1px solid white;
+  border-top: 1px solid white;
+  transition: 0s ease opacity .8s, .2s ease width .4s, .2s ease height .6s;
+}
+.border-button:after {
+  top: 0;
+  right: 0;
+  border-right: 1px solid white;
+  border-bottom: 1px solid white;
+  transition: 0s ease opacity .4s, .2s ease width, .2s ease height .2s;
+}
+.border-button:hover:before, 
+.border-button:hover:after {
+  height: 100%;
+  width: 100%;
+  opacity: 1;
+}
+.border-button:hover:before {
+  transition: 0s ease opacity 0s, .2s ease height, .2s ease width .2s;
+}
+.border-button:hover:after {
+  transition: 0s ease opacity .4s, .2s ease height .4s, .2s ease width .6s;
+}
+.border-button:hover {
+  background: #E0FFFF;
+}
